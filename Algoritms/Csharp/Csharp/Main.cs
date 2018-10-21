@@ -4,26 +4,33 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Csharp.Sorting.Quadratic;
-using Csharp.Sorting; 
-
+using Csharp.Sorting;
+using Csharp.Sorting.NLogN;
 
 namespace Csharp
 {
+
     class main
     {
         static void Main(string[] args)
         {
             //BubbleSort<int> bb = new BubbleSort<int>();
             //SelectionSort<int> st = new SelectionSort<int>();
-            InsertionSort<int> it = new InsertionSort<int>();
-            int[] a = { 5, 3, 6, 8, -1 };
+            //InsertionSort<int> it = new InsertionSort<int>();
+            //MergeSort<int> mg = new MergeSort<int>();
+            QuickSort<int> Qk = new QuickSort<int>();
+            int[] a = { 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 };
+            int[] b = new int[a.Length];
 
 
-            it.Sort(a);
+
+
+
+            Qk.Sort(a);
 
 
             Console.WriteLine("[{0}]", Util.ArraysToString(a));
-        }
 
+        }
     }
 }

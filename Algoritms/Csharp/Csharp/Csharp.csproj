@@ -44,6 +44,8 @@
   <ItemGroup>
     <Compile Include="main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sorting\NLogN\MergeSort.cs" />
+    <Compile Include="Sorting\NLogN\QuickSort.cs" />
     <Compile Include="Sorting\Quadratic\BubbleSort.cs" />
     <Compile Include="Sorting\Quadratic\InsertionSort.cs" />
     <Compile Include="Sorting\Quadratic\SelectionSort.cs" />
