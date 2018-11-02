@@ -8,7 +8,7 @@ using Csharp.Sorting;
 namespace Csharp.Sorting.Quadratic
 {
 
-    class SelectionSort<T> where T : IComparable<T>
+    public class SelectionSort<T> where T : IComparable<T>
     {
 
         private int SelectSmaller(T[] array, int startIndex, int endIndex)

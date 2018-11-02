@@ -19,7 +19,7 @@ namespace Csharp
             //InsertionSort<int> it = new InsertionSort<int>();
             //MergeSort<int> mg = new MergeSort<int>();
             QuickSort<int> Qk = new QuickSort<int>();
-            int[] a = { 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 };
+            int[] a = Util.RandomList(10);
             int[] b = new int[a.Length];
 
 

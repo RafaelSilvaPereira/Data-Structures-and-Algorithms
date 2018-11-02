@@ -3,7 +3,7 @@ using Csharp.Sorting;
 
 namespace Csharp.Sorting.NLogN
 {
-    class QuickSort<T> where T : IComparable<T>
+    public class QuickSort<T> where T : IComparable<T>
     {
         private int LomutoPartition(T[] array, int start, int end)
         {

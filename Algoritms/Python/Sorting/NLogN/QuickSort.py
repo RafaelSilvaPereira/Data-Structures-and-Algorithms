@@ -12,11 +12,11 @@ class QuickSort:
         Util.swapInArray(array, pivot, end)
         return pivot
 
-    def sort(self, array, start, end):
+    def _sort(self, array, start, end):
         if start < end:
             pivot = self.partition(array, start, end)
-            self.Quick(array, start, pivot - 1)
-            self.Quick(array, pivot + 1, end)
+            self._sort(array, start, pivot - 1)
+            self._sort(array, pivot + 1, end)
 
     def sort(self, array):
-        self.sort(array, 0, len(array) - 1)
+        self._sort( array, 0, len( array ) - 1 )

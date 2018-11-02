@@ -1,5 +1,5 @@
 class MergeSort:
-        def merge(self,array, start, middle, end):
+        def _merge(self, array, start, middle, end):
             # one array, but it's view as two arrays
             copy = array[::]
 
@@ -28,13 +28,13 @@ class MergeSort:
                 indexK += 1
                 indexB += 1
 
-        def Sort(self,array, start, end):
+        def _sort(self, array, start, end):
 
             if start < end:
                 middle = (start + end) // 2
-                self.Sort(array, start, middle)
-                self.Sort(array, middle + 1, end)
-                self.merge(array, start, middle, end)
+                self._sort( array, start, middle )
+                self._sort( array, middle + 1, end )
+                self._merge( array, start, middle, end )
 
-        def Sort(self,array):
-            self.Sort(array, 0, len(array) - 1)
+        def sort(self, array):
+            self._sort( array, 0, len( array ) - 1 )

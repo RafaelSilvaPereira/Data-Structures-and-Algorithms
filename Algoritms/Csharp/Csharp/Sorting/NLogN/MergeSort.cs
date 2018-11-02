@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Csharp.Sorting.NLogN
 {
-    class MergeSort<T> where T: IComparable<T>
+    public class MergeSort<T> where T: IComparable<T>
     {
         private void Merge(T[] array, int start, int middle, int end)
         {
