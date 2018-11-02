@@ -264,5 +264,6 @@ __pycache__/
 Algoritms/Python/venv
 Data-Structures/Python/venv
 Algoritms/Csharp/packages
-
-
+Algoritms/Csharp/Csharp/Properties/
+Algoritms/Csharp/Csharp/App.config
+Algoritms/Csharp/Csharp/Csharp.proj
