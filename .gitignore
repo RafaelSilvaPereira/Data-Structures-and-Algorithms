@@ -270,7 +270,8 @@ Algoritms/Csharp/Csharp/App.config
 Algoritms/Csharp/Csharp/Csharp.proj
 Algoritms/Java/bin
 /.metadata/
-
+/.recommenders
+.recommenders	
 
 
 
