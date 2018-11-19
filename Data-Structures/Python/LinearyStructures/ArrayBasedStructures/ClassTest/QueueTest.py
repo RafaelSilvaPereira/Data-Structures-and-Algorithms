@@ -1,7 +1,8 @@
 import unittest
-from LinearyStructures.Queue import Queue
+from LinearyStructures.ArrayBasedStructures.Queue import Queue
 
 class QueueTest(unittest.TestCase):
+
 
     def setUp(self):
         self._queue = Queue()

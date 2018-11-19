@@ -1,5 +1,5 @@
 import unittest
-from LinearyStructures.Stack import Stack, StackUnderFlowException
+from LinearyStructures.ArrayBasedStructures.Stack import Stack, StackUnderFlowException
 
 
 class StackTest(unittest.TestCase):

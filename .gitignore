@@ -262,16 +262,31 @@ __pycache__/
 
 
 Algoritms/Python/venv
-Data-Structures/Python/venv
+Algoritms/Python/.idea
+Algoritms/Java/.project
+Algoritms/Java/bin
+Algoritms/Java/.classpath
+Algoritms/Csharp/.vs
+Algoritms/Csharp/TestResults
 Algoritms/Csharp/packages
-Algoritms/Csharp/Csharp/Pro
-perties/
+Algoritms/Csharp/Csharp/App.config
+Algoritms/Csharp/Csharp/obj
+Algoritms/Csharp/Csharp/bin
+Algoritms/Csharp/Csharp/Properties
+Data-Structures/Python/venv
+Data-Structures/Python/.idea
+Data-Structures/Csharp/.vs
+Data-Structures/Csharp/.idea
+Data-Structures/Csharp/LinearyStructures/Properties
+Data-Structures/Csharp/LinearyStructures/obj
+Data-Structures/Csharp/LinearyStructures/bin
+Algoritms/Csharp/packages
+Algoritms/Csharp/Csharp/Properties/
 Algoritms/Csharp/Csharp/App.config
 Algoritms/Csharp/Csharp/Csharp.proj
-Algoritms/Java/bin
-/.metadata/
-/.recommenders
-.recommenders	
-
-
+Algoritms/Csharp/
+.idea
+.metadata
+.vs
+.git
 
